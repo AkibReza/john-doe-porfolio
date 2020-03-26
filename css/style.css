@@ -1,0 +1,115 @@
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-main {
+  color: #333;
+  background-color: #1b74b4; }
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4; }
+.btn-dark {
+  background-color: #333;
+  color: #f4f4f4; }
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+  background-color: #333;
+  color: #f4f4f4; }
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem; }
+
+.text-center {
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+  background: #fff; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+img {
+  width: 100%; }
+
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; }
+  #main-nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 1.5rem; }
+  #main-nav li {
+    padding: 1rem 1rem; }
+  #main-nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.3s; }
+    #main-nav a:hover {
+      border-color: #ec5f5f; }
+    #main-nav a.current {
+      border-color: #1b74b4; }
+
+#header-home {
+  background: url("../img/homepage/showcase.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff; }
+  #header-home .header-content {
+    text-align: center;
+    padding-top: 10%; }
+  #header-home h1 {
+    font-size: 4rem;
+    line-height: 1.2; }
+
+/* #home {
+
+  &-a {
+
+    .specials {
+      padding: 0rem 12rem;
+    }
+  }
+
+}
+ */
+#home-b ul {
+  list-style: none; }
+#home-b li {
+  line-height: 2; }
+  #home-b li.stats-title {
+    font-size: 1.5rem; }
+  #home-b li.stats-number {
+    font-size: 2rem;
+    font-weight: bold; }
+#home-b .col-md-3:nth-child(odd) {
+  background: #f4f4f4; }
+#home-b .col-md-3:nth-child(even) {
+  background: #ec5f5f; }
