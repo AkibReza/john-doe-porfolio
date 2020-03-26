@@ -34,6 +34,13 @@ input[class^='btn-']:hover {
 .text-center {
   text-align: center; }
 
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #1b74b4;
+  display: block;
+  margin: 0 auto 1rem auto; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -81,7 +88,10 @@ img {
 #header-home {
   background: url("../img/homepage/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
-  color: #fff; }
+  color: #fff;
+  z-index: -10; }
+  #header-home a {
+    text-decoration: none; }
   #header-home .header-content {
     text-align: center;
     padding-top: 10%; }
@@ -89,17 +99,6 @@ img {
     font-size: 4rem;
     line-height: 1.2; }
 
-/* #home {
-
-  &-a {
-
-    .specials {
-      padding: 0rem 12rem;
-    }
-  }
-
-}
- */
 #home-b ul {
   list-style: none; }
 #home-b li {

@@ -18,14 +18,21 @@
   <!-- START HERE -->
   <header id="header-home">
     <div class="container">
-      <nav id="main-nav">
-        <img src="img/homepage/logo.png" alt="" id="logo">
-        <ul>
-          <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="work.html">Work</a></li>
-        </ul>
+      <nav id="main-nav" class="navbar navbar-expand-sm navbar-dark ">
+        <a href="index.html">
+          <img src="img/homepage/logo.png" alt="" id="logo">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="work.html">Work</a></li>
+          </ul>
+        </div>
       </nav>
       <div class="header-content">
         <h1>I am John The <span class="txt-type" data-wait="1000"
@@ -127,6 +134,53 @@
     </div>
   </section>
 
+  <!-- Section C: -->
+
+  <section id="home-c" class="text-center py-2">
+    <div class="container">
+      <h2 class="section-title">
+        My Creative Process
+      </h2>
+      <div class="bottom-line"></div>
+      <p class="lead">All of my UI/UX and design projects are based off of a practiced formula to get the result that I
+        am looking for
+      </p>
+      <div class="process">
+        <div>
+          <i class="fas fa-file-alt fa-4x process-icon my-2">
+            <div class="process-step">1</div>
+          </i>
+          <div class="clr"></div>
+          <h3>Discuss The Project</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab eveniet ducimus est explicabo dolor quae.</p>
+        </div>
+        <div>
+          <i class="fas fa-desktop fa-4x process-icon my-2">
+            <div class="process-step">2</div>
+          </i>
+          <div class="clr"></div>
+          <h3>Final Fantasy</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab eveniet ducimus est explicabo dolor quae.</p>
+        </div>
+        <div>
+          <i class="fas fa-object-ungroup fa-4x process-icon my-2">
+            <div class="process-step">3</div>
+          </i>
+          <div class="clr"></div>
+          <h3>Evil Within</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab eveniet ducimus est explicabo dolor quae.</p>
+        </div>
+        <div>
+          <i class="fas fa-thumbs-up fa-4x process-icon my-2">
+            <div class="process-step">4</div>
+          </i>
+          <div class="clr"></div>
+          <h3>Interaction</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab eveniet ducimus est explicabo dolor quae.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Type Effect Tutorial: https://www.youtube.com/watch?v=POX3dT-pB4E -->
   <script src="js/typewriter.js"></script>
