@@ -1,6 +1,16 @@
 $website-width: 1280px;
-$main-color: #1b74b4;
+$main-color: #dc57f3;
 $light-color: #f4f4f4;
 $dark-color: #333;
-$medium-color: #ec5f5f;
-$bg-image: url('../img/homepage/showcase.jpg')
+$medium-color: #ef6f1a;
+$bg-image: url('../img/homepage/showcase.jpg'); //Set Text Color
+
+@function set-text-color($color) {
+  @if(lightness($color) > 50) {
+    @return #000;
+  }
+
+  @else {
+    @return #fff;
+  }
+}
