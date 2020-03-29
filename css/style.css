@@ -317,6 +317,9 @@ img {
     #main-nav li {
       padding: 1rem; }
 
+  .navbar {
+    text-align: center; }
+
   #header-home {
     height: auto;
     border-bottom: 3px solid #dc57f3;
